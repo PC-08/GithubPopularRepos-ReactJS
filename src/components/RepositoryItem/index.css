@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.ri-logo {
+  width: 80px;
+}
+
+.ri-info {
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+}
+
+.ri-para {
+  color: #1e293b;
+}
+
+.ri-indi {
+  width: 40px;
+  padding: 10px;
+}
+
+.ri-title {
+  color: #e73959;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.ri-card {
+  background-color: #f8f8ff;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 15px;
+  width: 280px;
+  font-family: 'roboto';
+}
+
+@media (max-width: 576px) {
+}

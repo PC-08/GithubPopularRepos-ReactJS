@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.filter-data-btn {
+  background-color: transparent;
+  border: 2px solid #1e293b;
+  color: #1e293b;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 6px;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.active {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+}
+
+@media (max-width: 576px) {
+  .filter-data-btn {
+    margin: 8px;
+  }
+}

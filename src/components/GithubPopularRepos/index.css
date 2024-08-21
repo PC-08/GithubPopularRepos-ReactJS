@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'roboto';
+}
+
+.filters-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.head {
+  font-family: 'Lobster';
+  font-size: 46px;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.fail {
+  width: 300px;
+}
+
+.ri-con {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .ri-con {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .filters-list {
+    margin: 0;
+    padding: 0;
+  }
+  .bg {
+    justify-content: center;
+    align-items: center;
+  }
+}
